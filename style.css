@@ -1,0 +1,232 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* style */
+
+body {
+    background-color: #CED8E4;
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+}
+
+/* header section */
+.header {
+    padding: 20px;
+   
+}
+
+.header .header1 img {
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+    float: left;
+}
+
+.header .header2 {
+    float: right;
+    margin: 20px 200px 0 0;    
+}
+
+.header .header2 ul a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(19, 126, 90);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear1 {clear: left;}
+
+/* End header section */
+
+/* hero section */
+
+.hero{
+    box-sizing: border-box;
+    height: 500px;
+    background-color: #112B3C;
+    padding: 40px 0 0 0;
+    display: grid;
+    place-items: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin: 40px 0 10px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.hero p {
+    text-align: center;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.hero button {
+    margin-bottom:160px ;
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #20C69E;
+}
+
+/* End hero section */
+
+/* Tiga gambar */
+
+.tigagambar {
+    position: relative;
+    left: 20%;
+    margin-top: -90px;  
+}
+
+.tigagambar .satugambar {
+    margin: 30px;
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    background-color: #20C69E;
+    border-radius: 20px;
+}
+
+.tigagambar .duagambar {
+    margin: 30px;
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    background-color: #20C69E;
+    border-radius: 20px;
+}
+
+.tigagambar .tigaduagambar {
+    margin: 30px;
+    display: inline-block;
+    width: 300px;
+    height: 150px;
+    background-color: #20C69E;
+    border-radius: 20px;
+}
+
+/* End Tiga Gambar */
+
+
+
+.container .hiburantajuk {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #20C69E;
+}
+
+/* Card Section */
+
+.cardsection {
+    position: relative;
+    left: 20%;
+    margin-top: 30px;
+    
+}
+
+.cardsection .cardsatu {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 350px;
+    border: 2px solid #112B3C;
+    border-radius: 10px;
+    margin: 30px;
+    
+}
+
+.cardsection .cardsatu .gambarcardsatu {
+    margin: 14px 0 15px 18px;
+    border-radius: 8px;
+    width: 260px;
+    height: 140px;
+    background-color: #112B3C;
+}
+
+.cardsection .cardsatu p {
+    text-align: center;
+    text-justify: auto;
+   
+    
+}
+
+.cardsection .cardsatu .panjesatu {
+    width: 298px;
+    height: 5px;
+    background-color: #112B3C;
+    margin-top: 90px;
+    margin-bottom: 10px;
+   
+}
+
+.cardsection .cardsatu .bwhpanjesatu {
+    box-sizing: border-box;
+
+}
+
+.cardsection .cardsatu .bwhpanjesatu .satukiri {
+    position: relative;
+    margin-left: 20px;
+    float: left;
+}
+
+.cardsection .cardsatu .bwhpanjesatu .satukanan {
+    position: relative;
+    margin-left: 140px;
+    float: left;
+}
+
+.clear2 {clear: left;}
+
+/* End Card Section */
+/* test */
+/* tst2 */
